@@ -1,0 +1,57 @@
+*{
+    font-family: 'GeneraleStationRegular';
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#side-img{
+    max-width: 40%;
+    position: absolute;
+    flex: 1;
+}
+
+#logo{
+    width: 50px;
+    z-index: 99;
+    padding: 10px 0;
+}
+
+#logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:15%;
+    position: relative;
+    background-color: rgba(180, 180, 180, 0.2);
+}
+
+#img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+#form-section{
+    width: 100%;
+    height: 100vh;
+    flex: 1;
+}
+
+#odin-project-text{
+    padding: 0 20px;
+    color: rgba(255, 255, 255,0.1);
+}
+
+#odin-project-text:hover{
+    color: rgba(255, 112, 0,0.5);
+    text-shadow: 3px 3px 10px rgb(193, 85, 0);
+    cursor: pointer;
+}
