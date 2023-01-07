@@ -6,24 +6,30 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --background-color: rgb(24, 20, 20);
+    --font-color: rgb(182, 174, 174);
+    --font-color-2: rgb(255, 173, 54);
+    --second-bg-color: rgb(28, 36, 40);
+}
 
 h1{
     color: rgba(255, 255, 255,0.5);
 }
 #text-logo h1:hover{
-color: rgba(0, 0, 0,0.5);
+color: var(--font-color);
 text-shadow: 2px 2px 5px rgba(0, 0, 0,0.3);
 }
 
 #main{
-    background: linear-gradient(#f79f79,#ffa900);
+    background: linear-gradient(var(--background-color),var(--second-bg-color));
     width: 100%;
     min-height: 100vh;
     display: flex;
 }
 
 #left{
-    background-image: url(https://images.unsplash.com/photo-1673010960635-d0d1ad81b90a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) ;
+    background-image: url(https://images.unsplash.com/photo-1492112007959-c35ae067c37b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80) ;
     width: 30%;
     height: 100vh;
     object-fit: cover;
@@ -31,6 +37,9 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0,0.3);
     font-family: 'H0bbyofnightRegular',sans-serif;
 }
 
+h2{
+    color: var(--font-color-2);
+}
 #logo-wrapper{
     width: 100%;
     display: flex;
@@ -52,7 +61,6 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0,0.3);
     height: 100vh;
     min-width: 60%;
     float: left;
-    background-color: rgba(0, 255, 255,0.5);
     flex: 1;
 }
 
@@ -60,12 +68,12 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0,0.3);
     width: 100%;
     height: 25%;
     padding: 50px;
-    background-color: #fff;
+    background-color: var(--background-color);
     font-family: 'Rowdies', sans-serif;
 }
 
 .section1{
-    color: rgb(0, 0, 0);
+    color: var(--font-color)
 }
 .section1 p{
     text-align: justify;
@@ -114,6 +122,7 @@ label{
 display: flex;
 align-items: center;
 flex-direction: column;
+color: var(--font-color);
 }
 button{
     width: 20%;
@@ -129,6 +138,6 @@ button:active{
     box-shadow:  none;
     background-color: #d39822;
     transform: translateY(2px);
-    color: #ebeae8;
+    color: var(--font-color);
 
 }
