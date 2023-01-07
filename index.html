@@ -4,29 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/generale-station" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/hobby-of-night" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up-Form</title>
 </head>
 <body>
     <div id="main">
-        <div id="side-img">
-            <img id="img"
-            src="https://images.unsplash.com/photo-1492112007959-c35ae067c37b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80"
-            alt="Burning White dandelion at night">
-
+        <div id="left">
             <div id="logo-wrapper">
-                <div class="logo-wrapper">
-                    <img id="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt=""></div>
-                <div id="odin-project-text">
+                <img id="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="The odin project logo">
+                <div id="text-logo">
                     <h2>THE ODIN PROJECT</h2>
                 </div>
             </div>
         </div>
-        <div id="form-section">
 
+        <div id="right">
+            <section class="section1 section">
+                <h2>This is not a real online service! </h2>
+                <br>
+                <h3>This is a sample form page for the odin project, Lorem ipsum dolor sit amet.</h3>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi dicta ipsa consequuntur et cupiditate repellat eligendi ad cumque perferendis. Minima nisi ratione est deleniti totam consectetur odio quod dolor voluptas!</p>
+            </section>
+            <section class="section2 section">
+                <div class="text">
+                    <h1>Let's do this!</h1>
+                </div>
+                <div class="sub">
+                    <div id="left-input" class="sub-section">
+                        <fieldset>
+                            <form action="post">
+                                <label for="first-name">First Name:
+                                    <input type="text" id="first-name">
+                                </label>
+                            </form>
+                        </fieldset>
+
+                        <fieldset>
+                            <form action="post">
+                                <label for="last-name">Last Name:
+                                    <input type="text" id="last-name">
+                                </label>
+                            </form>
+                        </fieldset>
+
+                        <fieldset>
+                            <form action="post">
+                                <label for="email">Email:
+                                    <input type="email" id="email" required>
+                                </label>
+                            </form>
+                        </fieldset>
+                    </div>
+                    <div id="right-input" class="sub-section">
+                        <fieldset>
+                            <form action="post">
+                                <label for="phone-number">Phone number:
+                                    <input type="number" id="phone-number">
+                                </label>
+                            </form>
+                        </fieldset>
+
+                        <fieldset>
+                            <form action="post">
+                                <label for="password">Password:
+                                    <input type="password" id="password">
+                                </label>
+                            </form>
+                        </fieldset>
+
+                        <fieldset>
+                            <form action="post">
+                                <label for="password-b">Confirm-password:
+                                    <input type="password" id="password-b" required>
+                                </label>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+            </section>
+            <section class="section3 section"></section>
         </div>
     </div>
+
 </body>
 <script src="https://kit.fontawesome.com/c1a867654a.js" crossorigin="anonymous"></script>
 </html>
