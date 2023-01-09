@@ -93,6 +93,7 @@ form{
     color: var(--font-color2);
     font-size: 20px;
     margin: 5px 0;
+    background-color: var(--font-color4);
 }
 
 .title-wrap{
@@ -104,6 +105,7 @@ form{
 
 .error{
     border: 3px solid red
+    
 }
 
 .not-error{
@@ -134,4 +136,9 @@ form{
     background-color: #3E065F;
     transform: translateY(1px);
 
+}
+
+.match-do-not-match{
+    width: 100%;
+    text-align: center;
 }

@@ -20,7 +20,7 @@
                 </p>
             </div>
             <div class="section2 form-section">
-                <form action="post" id="signup-form">
+                <form action="" id="signup-form">
 
                     <div class="title-wrap">
                         <h2>Let's go</h2>
@@ -38,33 +38,37 @@
 
                         <div class="email input-wrapper">
                             <label for="email">Email</label>
-                            <input class="input" type="email" id="first-name" name="email" required>
+                            <input class="input" type="email" id="email" name="email" required>
                         </div>
 
                         <div class="phone-number input-wrapper">
                             <label for="phone-number">Phone number</label>
-                            <input class="input" type="number" id="second-name" name="phone-number" required>
+                            <input class="input" type="number" id="phone-number" name="phone-number" required>
                         </div>
 
                         <div class="password input-wrapper">
-                            <label for="first-name">Password</label>
-                            <input class="input" type="text" id="password" name="password" required>
+                            <label for="password">Password</label>
+                            <input id="password" class="input" type="password" id="password" name="password" required>
                         </div>
 
                         <div class="confirm-password input-wrapper">
                             <label for="second-name">Confirm password</label>
-                            <input class="input" type="password" id="password" name="passwrod" required>
+                            <input class="input" type="password" id="c-password" name="passwrod" required>
+                        </div>
+
+                        <div class="match-do-not-match">
+                            <p id="error"></p>
                         </div>
 
             </div>
             <div class="section3">
                 <button type="submit">Create Account</button>
             </form>
-            <h3>Alredy have an account? <a href="/"> Log in</a> </h3>
+            <h3>Alredy have an account? <a href="/"> Log in</a></h3>
                 
             </div>
         </div>
     </div>
-    
+    <script src="js.js"></script>
 </body>
 </html>
